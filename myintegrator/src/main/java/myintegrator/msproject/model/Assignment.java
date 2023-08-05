@@ -1,0 +1,55 @@
+package myintegrator.msproject.model;
+
+import java.util.Date;
+import java.util.List;
+
+public class Assignment {
+	public int UID;
+	public int TaskUID;
+	public int ResourceUID;
+	public int PercentWorkComplete;
+	public int ActualCost;
+	public int ActualOvertimeCost;
+	public String ActualOvertimeWork;
+	public String ActualWork;
+	public double ACWP;
+	public int Confirmed;
+	public int Cost;
+	public int CostRateTable;
+	public int RateScale;
+	public int CostVariance;
+	public double CV;
+	public int Delay;
+	public Date Finish;
+	public int FinishVariance;
+	public double WorkVariance;
+	public int HasFixedRateUnits;
+	public int FixedMaterial;
+	public int LevelingDelay;
+	public int LevelingDelayFormat;
+	public int LinkedFields;
+	public int Milestone;
+	public int Overallocated;
+	public int OvertimeCost;
+	public String OvertimeWork;
+	public String RegularWork;
+	public int RemainingCost;
+	public int RemainingOvertimeCost;
+	public String RemainingOvertimeWork;
+	public String RemainingWork;
+	public int ResponsePending;
+	public Date Start;
+	public int StartVariance;
+	public int Units;
+	public int UpdateNeeded;
+	public double VAC;
+	public String Work;
+	public int WorkContour;
+	public double BCWS;
+	public double BCWP;
+	public int BookingType;
+	public Date CreationDate;
+	public int BudgetCost;
+	public String BudgetWork;
+	public List<TimephasedData> TimephasedData;
+}
